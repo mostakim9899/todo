@@ -333,8 +333,8 @@ const TodoApp = () => {
 
 
 
-                          <h3 className="mt-2 text-sm font-medium text-gray-900">No Active Todos</h3>
-                          <p className="mt-1 text-sm text-gray-500">Get started by creating a new todos.</p>
+                          <h3 className="mt-2 text-sm font-medium text-gray-900">No Todos Completed</h3>
+                          <p className="mt-1 text-sm text-gray-500">Keep working</p>
 
                         </div>
                       )}
