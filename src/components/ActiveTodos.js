@@ -47,7 +47,7 @@ const ActiveTodos = ({  classNames, toggleTodo, Ptodos,SetTodos }) => {
                                            checked={todo.completed}
                                            onChange={() => toggleTodo(index)}
                                            className={classNames(
-                                               todo.completed ? 'bg-indigo-600' : 'bg-gray-200',
+                                               todo.completed ? 'bg-rose-600' : 'bg-gray-200',
                                                '  relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 '
                                            )}
                                        >
